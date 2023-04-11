@@ -148,7 +148,7 @@ def read_towns_csv(csv_file):
 
 towns = read_towns_csv('towns.csv')
 
-nouse=input();
+nouse=input('Press Enter To Start');
 
 for town_name, state in towns:
     town = town_name + ", " + state
